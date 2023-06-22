@@ -1,0 +1,39 @@
+/* Plugin Style */
+
+.annonce-defilante-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #e84a0f !important;
+  color: #fff;
+  overflow: hidden;
+}
+
+.admin-bar-visible {
+  top: 32px;
+}
+
+.annonce-defilante-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  animation: defile linear infinite;
+}
+
+.annonce-defilante-container li {
+  display: inline-block;
+  padding: 0 2rem;
+  border-right: 4px solid #fff;
+}
+
+@keyframes defile {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
