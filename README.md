@@ -1,3 +1,3 @@
-#Annonce deflante
+#Annonce defilante
 
 ##Un plugin wordpress
