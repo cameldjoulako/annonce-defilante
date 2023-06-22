@@ -1,4 +1,3 @@
 #Annonce deflante
 
-##Un pligin wordpress
-git
+##Un plugin wordpress
